@@ -18,6 +18,22 @@
         .blog-post h2 {
             margin-top: 0;
         }
+        .timestamp {
+            font-style: italic;
+            font-size: smaller;
+            color: gray;
+        }
+        .comments {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .comment {
+            margin-bottom: 10px;
+        }
+        .comment-header {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -26,7 +42,7 @@
         <p><center>
             A Day in the life of me as I continue my technical journey one step all over the place.
         </center>
-</p>
+        </p>
         <center>
             <img src="FJLM Logo.PNG" alt="FJLM Logo">
         </center>
@@ -38,12 +54,19 @@
         <h2>Blog Posts:</h2>
         <div class="blog-post">
             <h2>Blog Post 1</h2>
+            <p class="timestamp">Published: February 14, 2023, 11:00 AM</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper odio, id euismod diam bibendum non. Aliquam erat volutpat. Nam tristique, est a aliquet aliquet, libero nunc tincidunt velit, vel malesuada sapien est at metus. Curabitur nec sollicitudin lectus.</p>
+            <div class="comments">
+                <h3>Comments:</h3>
+                <div class="comment">
+                    <p class="comment-header">User 1:</p>
+                    <p>Great post, looking forward to your future updates!</p>
+                </div>
+                <div class="comment">
+                    <p class="comment-header">User 2:</p>
+                    <p>Interesting insights, keep up the good work!</p>
+                </div>
+            </div>
         </div>
         <div class="blog-post">
             <h2>Blog Post 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper odio, id euismod diam bibendum non. Aliquam erat volutpat. Nam tristique, est a aliquet aliquet, libero nunc tincidunt velit, vel malesuada sapien est at metus. Curabitur nec sollicitudin lectus.</p>
-        </div>
-    </div>
-</body>
-</html>
