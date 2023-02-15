@@ -3,7 +3,7 @@
 <head>
     <title>FJLM's Blog</title>
     <style>
-        .navigation {
+        .side-bar {
             width: 200px;
             height: calc(100vh - 50px);
             overflow-y: scroll;
@@ -12,7 +12,7 @@
         }
         .blog-section {
             margin: 20px;
-            float: left;
+            float: right;
             width: calc(100% - 220px);
         }
         .blog-post {
@@ -27,10 +27,8 @@
             display: block;
             margin-bottom: 10px;
         }
-        .timestamp {
-            font-size: 12px;
-            color: #999999;
-            margin-top: 5px;
+        .center {
+            text-align: center;
         }
     </style>
 </head>
@@ -39,16 +37,19 @@
     <div>
         <p><center>
             A Day in the life of me as I continue my technical journey one step all over the place.
-        </center>
-        </p>
-        <center>
-            <img src="FJLM Logo.PNG" alt="FJLM Logo">
-        </center>
+        </center></p>
+        <div class="center">
+            <img src="FJLMLogo.png" alt="FJLM Logo">
+	</div>
         <p>
-            Hello All, this will be the location I guess for my regular specticles. As I traverse through life with all of its joys and pitfalls it's sure to be spitfire time. I am a Disabled US Navy veteran with a plethora of interests. Follow me as I document my day to day life and my adventures in technology.
+            Hello All, this will be the location I guess for my regular spectacles. As I traverse through life with all of its joys and pitfalls it's sure to be spitfire time. I am a Disabled US Navy veteran with a plethora of interests. Follow me as I document my day to day life and my adventures in technology.
         </p>
+        <div class="center">
+            <img src="usnseal.jpg" alt="United States Navy Seal">
+		<img src="radioman.webp" alt="Navy Radioman Seal">
+        </div>
     </div>
-    <div class="navigation">
+    <div class="side-bar">
         <h2>Navigation:</h2>
         <a href="#">Link 1</a>
         <a href="#">Link 2</a>
@@ -61,7 +62,7 @@
         <div class="blog-post">
             <h2>Blog Post 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper odio, id euismod diam bibendum non. Aliquam erat volutpat. Nam tristique, est a aliquet aliquet, libero nunc tincidunt velit, vel malesuada sapien est at metus. Curabitur nec sollicitudin lectus.</p>
-            <p class="timestamp">Timestamp: February 14, 2023</p>
+            <p class="timestamp">Posted on February 14, 2023</p>
         </div>
     </div>
 </body>
