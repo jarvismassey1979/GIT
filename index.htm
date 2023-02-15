@@ -3,12 +3,17 @@
 <head>
     <title>FJLM's Blog</title>
     <style>
-        img {
-            max-width: 50%;
-            height: auto;
+        .side-bar {
+            width: 200px;
+            height: calc(100vh - 50px);
+            overflow-y: scroll;
+            float: left;
+            padding: 20px;
         }
         .blog-section {
             margin: 20px;
+            float: right;
+            width: calc(100% - 220px);
         }
         .blog-post {
             border: 1px solid black;
@@ -18,17 +23,8 @@
         .blog-post h2 {
             margin-top: 0;
         }
-        .side-panel {
-            width: 20%;
-            height: 500px;
-            float: right;
-            overflow: auto;
-        }
-        .side-panel ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .side-panel li {
+        a {
+            display: block;
             margin-bottom: 10px;
         }
     </style>
@@ -47,13 +43,20 @@
             Hello All, this will be the location I guess for my regular specticles. As I traverse through life with all of its joys and pitfalls it's sure to be spitfire time. I am a Disabled US Navy veteran with a plethora of interests. Follow me as I document my day to day life and my adventures in technology.
         </p>
     </div>
+    <div class="side-bar">
+        <h2>Navigation:</h2>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+    </div>
     <div class="blog-section">
         <h2>Blog Posts:</h2>
         <div class="blog-post">
             <h2>Blog Post 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper odio, id euismod diam bibendum non. Aliquam erat volutpat. Nam tristique, est a aliquet aliquet, libero nunc tincidunt velit, vel malesuada sapien est at metus. Curabitur nec sollicitudin lectus.</p>
         </div>
-        <div class="blog-post">
-            <h2>Blog Post 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada semper odio, id euismod diam bibendum non. Aliquam erat volutpat. Nam tristique, est a aliquet aliquet, libero nunc tincidunt velit, vel malesuada sapien est at metus. Curabitur nec sollicitudin lectus.</p>
-          
+    </div>
+</body>
+</html>
